@@ -1,0 +1,19 @@
+{
+    "name": "boyone/demo",
+    "description": "hello composer",
+    "require": {
+        "phpunit/phpunit": "3.8.*@dev"
+    },
+    "authors": [
+        {
+            "name": "boyone",
+            "email": "boyone.g@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+	"psr-0": {
+	     "demo": ""
+	}
+    }		
+}
